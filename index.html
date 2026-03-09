@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Il futuro delle CPU e il costo della RAM</title>
+
+    <!-- SCROLL MORBIDO -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+header {
+    background: url('CPU.jpg') center/cover no-repeat;
+    padding: 80px 20px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(0,0,0,0.6);
+}
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #0b1020;
+            color: #f5f5f5;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1f3b73, #4b8fe2);
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.4rem;
+            color: #4da3ff;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background-color: #111729;
+            padding: 10px 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: #c7d7ff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px 40px;
+            background-color: #151a2c;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.4);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            border-bottom: 1px solid #2b3555;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            color: #e0e6ff;
+        }
+
+        h3 {
+            margin-top: 15px;
+            color: #c0ccff;
+        }
+
+        p, li {
+            line-height: 1.6;
+            font-size: 0.98rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* TIMELINE */
+        .timeline {
+            border-left: 2px solid #4b8fe2;
+            padding-left: 20px;
+            margin-left: 10px;
+        }
+
+        .timeline-item {
+            margin-bottom: 20px;
+        }
+
+        .timeline-item span {
+            color: #4da3ff;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 0.85rem;
+            background-color: #0a0e1a;
+            color: #9aa4c8;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Il futuro delle CPU</h1>
+        <p>Architetture, scelte tecnologiche e l'impatto dell'aumento dei prezzi della RAM</p>
+    </header>
+
+    <nav>
+        <a href="#intro">Introduzione</a>
+        <a href="#cpu-trend">Tendenze CPU</a>
+        <a href="#memoria">Memoria</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#glossario">Glossario</a>
+        <a href="#importanza">Importanza</a>
+        <a href="#futuro">Futuro</a>
+    </nav>
+
+    <main>
+
+        <!-- INTRODUZIONE -->
+        <section id="intro">
+            <h2>Introduzione</h2>
+
+            <p>
+                Negli ultimi anni il mondo delle CPU sta cambiando rapidamente. Le vecchie strategie per aumentare la potenza non funzionano più come prima, e i produttori devono affrontare diversi problemi: limiti fisici dei chip, consumi sempre più alti, difficoltà nel mantenere frequenze elevate e una crescente complessità delle architetture moderne.
+            </p>
+
+            <p>
+                Anche la memoria sta diventando un punto critico. La RAM non riesce a stare al passo con la velocità delle CPU e questo crea rallentamenti. In più, i prezzi della memoria stanno aumentando, influenzando sia le scelte dei produttori sia il costo finale dei dispositivi.
+            </p>
+
+            <p>
+                Per rispondere a queste sfide stanno nascendo nuove soluzioni: architetture ibride, chiplet, cache più grandi e memorie più veloci. Tutte queste tecnologie cercano di superare i limiti attuali e preparare il terreno per il futuro dei processori.
+            </p>
+        </section>
+
+        <!-- TENDENZE CPU -->
+        <section id="cpu-trend">
+            <h2>Tendenze nel design delle CPU</h2>
+
+            <h3>Aumento dei core e parallelismo</h3>
+            <p>
+                I produttori puntano su CPU con molti core per gestire più attività in parallelo, invece di spingere solo sulla frequenza di clock.
+            </p>
+
+            <h3>Architetture ibride</h3>
+           <p> Le architetture ibride sono uno dei cambiamenti più importanti nel modo in cui vengono costruite le CPU moderne. Invece di usare solo un tipo di core, questi processori combinano due categorie diverse: </p>
+   <p>   • 	Core ad alte prestazioni (P-core): sono i core più potenti, pensati per i compiti pesanti come giochi, programmi professionali, editing video e calcoli complessi. </p>
+   <p>      • 	Core ad alta efficienza (E-core): consumano poca energia e sono ideali per attività leggere come navigazione, musica, applicazioni in background e gestione del sistema.</p>
+<p> Questa combinazione permette alla CPU di scegliere automaticamente il tipo di core più adatto a ogni situazione. Il risultato è un processore più veloce quando serve, ma anche più efficiente e silenzioso quando il carico è leggero. </p>
+<p> Le architetture ibride sono nate nel mondo mobile, dove il risparmio energetico è fondamentale, e oggi sono diventate comuni anche nei computer desktop. Questo approccio aiuta a gestire meglio i consumi, a mantenere temperature più basse e a sfruttare in modo più intelligente la potenza disponibile. </p>
+        </section>
+
+        <!-- MEMORIA -->
+        <section id="memoria">
+            <h2>Il ruolo della memoria</h2>
+
+            <p>La memoria è uno degli elementi più importanti in un computer, perché contiene i dati che la CPU deve elaborare. Più la memoria è veloce e vicina al processore, più il sistema risulta reattivo. Negli ultimi anni però la RAM non è riuscita a tenere il passo con la crescita delle prestazioni delle CPU.</p>
+<p>Questo crea un problema chiamato “collo di bottiglia della memoria”: la CPU è in grado di lavorare molto più velocemente di quanto la RAM riesca a fornirle i dati. Di conseguenza, una parte del tempo la CPU rimane in attesa, sprecando potenza che potrebbe essere utilizzata per eseguire altre operazioni.</p>
+<p>Per ridurre questo limite, i produttori stanno aumentando la dimensione delle cache, che sono memorie molto più veloci integrate direttamente nel processore. Allo stesso tempo stanno nascendo nuove tecnologie di RAM più rapide, come DDR5 e HBM, pensate per offrire una banda molto più elevata.</p>
+<p>Il ruolo della memoria è quindi diventato centrale nel design delle CPU moderne. Non basta più avere un processore potente: serve anche una memoria capace di supportarlo, altrimenti una parte delle prestazioni rimane inutilizzata.</p>
+        </section>
+
+        <!-- TIMELINE -->
+        <section id="timeline">
+            <h2>Timeline dell'evoluzione delle CPU</h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <span>1990–2005:</span> Aumento delle frequenze come principale metodo per migliorare le prestazioni.
+                </div>
+
+                <div class="timeline-item">
+                    <span>2005:</span> Fine della “corsa ai GHz” a causa dei limiti termici.
+                </div>
+
+                <div class="timeline-item">
+                    <span>2010:</span> Diffusione delle CPU multicore.
+                </div>
+
+                <div class="timeline-item">
+                    <span>2017:</span> Introduzione dei chiplet (AMD Ryzen).
+                </div>
+
+                <div class="timeline-item">
+                    <span>2020:</span> Architetture ibride nei PC (Intel Alder Lake).
+                </div>
+
+                <div class="timeline-item">
+                    <span>Futuro:</span> CPU modulari con acceleratori AI integrati.
+                </div>
+
+            </div>
+        </section>
+
+        <!-- GLOSSARIO -->
+        <section id="glossario">
+            <h2>Glossario tecnico</h2>
+
+            <h3>Latenza</h3>
+            <p>Il tempo che la memoria impiega per rispondere a una richiesta della CPU.</p>
+
+            <h3>Banda</h3>
+            <p>La quantità di dati che la memoria può trasferire in un secondo.</p>
+
+            <h3>Chiplet</h3>
+            <p>Piccoli moduli che insieme formano una CPU più grande e flessibile.</p>
+
+            <h3>P-core / E-core</h3>
+            <p>P-core = core potenti. E-core = core efficienti.</p>
+
+            <h3>Cache</h3>
+            <p>Memoria molto veloce dentro la CPU che riduce l’attesa dei dati.</p>
+
+            <h3>HBM</h3>
+            <p>RAM ad altissima banda, usata in GPU e acceleratori AI.</p>
+        </section>
+
+        <!-- IMPORTANZA -->
+        <section id="importanza">
+            <h2>Perché tutto questo è importante</h2>
+
+            <p>
+                Le CPU sono al centro di ogni dispositivo moderno: computer, smartphone, server, auto, robot e sistemi di intelligenza artificiale.
+            </p>
+
+            <p>
+                Capire come funzionano e quali limiti devono affrontare aiuta a comprendere perché i dispositivi diventano più costosi, perché alcune tecnologie avanzano più lentamente e quali innovazioni ci aspettano.
+            </p>
+
+            <p>
+                Il futuro dell’informatica dipende dalla capacità di superare i limiti attuali di CPU e memoria.
+            </p>
+        </section>
+
+        <!-- FUTURO -->
+        <section id="futuro">
+            <h2>Uno sguardo al futuro</h2>
+<p>Il futuro delle CPU sarà guidato da un obiettivo preciso: superare i limiti che oggi frenano le prestazioni. Le tecnologie attuali stanno arrivando al massimo delle loro possibilità, quindi i produttori stanno cercando nuove strade per continuare a migliorare potenza, efficienza e gestione della memoria.</p>
+<p>Nei prossimi anni vedremo processori sempre più “intelligenti”, capaci di adattarsi automaticamente al tipo di lavoro da svolgere. Le architetture ibride diventeranno la norma, con core diversi che collaborano per offrire più velocità quando serve e consumi ridotti quando il carico è leggero.</p>
+<p>Anche la memoria avrà un ruolo centrale. Le CPU saranno progettate per lavorare più vicino possibile alla RAM, con cache più grandi e tecnologie che aumentano la banda disponibile. Questo servirà a ridurre i colli di bottiglia e a sfruttare meglio la potenza del processore.</p>
+<p>Infine, l’uso dei chiplet e di moduli specializzati permetterà di creare CPU più flessibili, capaci di integrare componenti dedicati all’intelligenza artificiale, alla grafica o ad altri compiti specifici. Saranno processori più modulari, più efficienti e più adatti alle esigenze moderne.</p>
+<p>In sintesi, il futuro delle CPU sarà fatto di collaborazione tra core diversi, memoria più veloce e vicina, e architetture progettate per superare i limiti attuali. Un’evoluzione necessaria per sostenere le richieste sempre più elevate dei software e delle tecnologie di domani.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Sito di Antonio Proscia e Alessio Buiatti – Progetto sul futuro delle CPU e della RAM</p>
+    </footer>
+</body>
+</html>
